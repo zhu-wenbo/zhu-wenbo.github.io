@@ -3,14 +3,14 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-10-30 Sat 22:25 -->
+<!-- 2022-01-19 Wed 17:11 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Wenbo Zhu | 朱文博 - Useful notes and learning resources | 一些不错的学习资料</title>
-<meta name="generator" content="Org mode" />
 <meta name="author" content="Wenbo Zhu" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -31,8 +31,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -40,22 +41,22 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
+    overflow: auto;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -191,58 +192,11 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
-  /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="style.css"/>
-<script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2020 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
-<!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
-</script>
 </head>
 <body>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">Wenbo Zhu | 朱文博 - Useful notes and learning resources | 一些不错的学习资料</h1>
 <p>
 <a href="./index.html">&lArr; Back to the main page|回到首页</a>
@@ -261,8 +215,8 @@ send me a note, so that I can fix them.
 different categories, for the purpose of easier browsing.)
 </p>
 
-<div id="outline-container-org4cbb4d3" class="outline-2">
-<h2 id="org4cbb4d3"><span class="section-number-2">1</span> Writing and presentation tips</h2>
+<div id="outline-container-org7d67100" class="outline-2">
+<h2 id="org7d67100"><span class="section-number-2">1.</span> Writing and presentation tips</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li><a href="https://www.johnhcochrane.com/s/phd_paper_writing-ajne.pdf">John H. Cochrane:  Writing Tips for Ph.D. Students</a>
@@ -277,8 +231,8 @@ different categories, for the purpose of easier browsing.)
 </div>
 </div>
 
-<div id="outline-container-orge4bae8b" class="outline-2">
-<h2 id="orge4bae8b"><span class="section-number-2">2</span> General interest to graduate students</h2>
+<div id="outline-container-org637a380" class="outline-2">
+<h2 id="org637a380"><span class="section-number-2">2.</span> General interest to graduate students</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li><a href="./misc/how.pdf">Varian: How to build an economic model in your spare time</a></li>
@@ -288,13 +242,33 @@ different categories, for the purpose of easier browsing.)
 <li><a href="https://yiqingxu.org/articles/20160514_CNpolitics_interview.pdf">徐轶青：读博那些事儿</a></li>
 
 <li><a href="https://michaelzsong.weebly.com/uploads/4/8/1/4/48141215/%E5%AE%8B%E9%93%AE%E6%BC%94%E8%AE%B2%E9%80%9F%E8%AE%B0.pdf">宋铮：经济学的价值</a></li>
+
+<li><code>PODCAST</code> <a href="https://www.econtalk.org">econtalk.org</a>
+<ul class="org-ul">
+<li>Some interesting conversations between a thoughtful, kind, and non-intrusive
+host and his guests from (not just) the field of economics.</li>
+</ul></li>
+
+<li><code>PODCAST</code> <a href="https://www.xiaoyuzhoufm.com/podcast/5ffaa4033d815cf15902ba52">随机游走｜RandomWalk Theory</a>
+<ul class="org-ul">
+<li>徐轶青老师的播客，主要与（广义上）的经济学和政治学研究相关。徐老师的问题经常切中要害。很多对话都很坦诚。</li>
+</ul></li>
+
+<li><a href="https://blog.jethro.dev/posts/org_roam_2021/">Org-roam: A Year In Review</a>
+<ul class="org-ul">
+<li>I do not use Org-roam, but I like the philosophy expressed here regarding
+workflows. I especially like the sentence <i>"The only real benchmark of</i>
+<i>productivity is by measuring actual work output, and you'll find that the</i>
+<i>most brilliant and productive people always have simple workflows using
+simple tools."</i> I'd like to believe the second half of the sentence is true.</li>
+</ul></li>
 </ul>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Wenbo Zhu</p>
-<p class="date">Created: 2021-10-30 Sat 22:25</p>
+<p class="date">Created: 2022-01-19 Wed 17:11</p>
 </div>
 </body>
 </html>
